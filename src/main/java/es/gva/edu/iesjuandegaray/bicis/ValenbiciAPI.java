@@ -55,8 +55,8 @@ public class ValenbiciAPI {
                 	String name = atributos.getString("name");
                 	int available = atributos.getInt("available");
                 	int free = atributos.getInt("free");
-                	double x = geometria.getInt("x");
-                	double y = geometria.getInt("y");
+                	double x = geometria.getDouble("x");
+                	double y = geometria.getDouble("y");
                 	Geometry ubicacion = new Geometry();
                 	ubicacion.x = x;
                 	ubicacion.y = y;
